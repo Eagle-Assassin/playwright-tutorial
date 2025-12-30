@@ -1,0 +1,30 @@
+class=dt-paging-button next    ---> enable state
+
+
+class= dt-paging-button disabled next
+
+
+
+CPU load of Chrome process:
+-------------
+row.locator("td", has_text="%")
+
+
+
+Memory Size of Firefox process: 
+----------------------
+import re
+
+row.locator("td", has_text=re.compile("MB$")) )
+
+
+Network speed of Chrome process: 
+-----------------
+row.locator("td", has_text="Mbps")
+
+
+Disk space of Firefox process:
+--------
+row.locator("td", has_text="MB/s")
+
+

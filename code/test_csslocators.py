@@ -29,3 +29,5 @@ def test_verify_css_locators(page:Page):
     #4.tag class attribute
     page.locator("input.search-box-text[value='Search store']").fill("tag class attribute")
     page.wait_for_timeout(2000)
+
+
